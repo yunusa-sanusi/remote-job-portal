@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://remote-jobs-portal.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/eoqWM9b9IunEMua6am2z">
       Solution
     </a>
     <span> | </span>
@@ -37,18 +37,11 @@
 
 ## Overview
 
-![screenshot](1.png)
-![screenshot](2.png)
-![screenshot](3.png)
-![screenshot](4.png)
-![screenshot](5.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+![screenshot](screenshots/1.png)
+![screenshot](screenshots/2.png)
+![screenshot](screenshots/3.png)
+![screenshot](screenshots/4.png)
+![screenshot](screenshots/5.png)
 
 ### Built With
 
