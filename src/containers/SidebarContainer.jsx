@@ -1,8 +1,8 @@
-import React from "react";
-import { useGlobalContext } from "../context";
+import React from 'react';
+import { useGlobalContext } from '../context';
 
 const SidebarContainer = () => {
-  const { data, jobs, filterJobs } = useGlobalContext();
+  const { data, toggleCategory } = useGlobalContext();
 
   const categories = [...new Set(data.map((job) => job.job_type))];
 
@@ -16,13 +16,13 @@ const SidebarContainer = () => {
               type="checkbox"
               name=""
               id="flexCheckDefault"
-              onClick={() => filterJobs(category)}
+              onClick={() => toggleCategory(category)}
             />
             <label
               className="form-check-label inline-block text-gray-800"
               htmlFor="flexCheckDefault"
             >
-              {category ? category : "no category"}
+              {category ? category : 'no category'}
             </label>
           </div>
         );

@@ -1,8 +1,8 @@
-import React from "react";
-import { useGlobalContext } from "../context";
+import React from 'react';
+import { useGlobalContext } from '../context';
 
 const MainSearchbar = () => {
-  const { searchText, search, changeSearchText } = useGlobalContext();
+  const { searchText, changeSearchText } = useGlobalContext();
 
   return (
     <section className="w-full h-32 bg-searchbarBackground bg-center bg-cover flex justify-center items-center rounded-md mb-8">
